@@ -15,12 +15,12 @@ Welcome to the repository for my online portfolio, created with Webflow and anim
 
 
 ## Installation and Usage
-To use this project, simply clone the repository and open the index.html file in your browser. Alternatively, you can view the live site at [insert your website URL here].
+To use this project, simply clone the repository and open the index.html file in your browser. Alternatively, you can view the live site at [Deploy Link](https://alexandre-tzn.webflow.io/).
 
 ## Contact
 
 If you have any questions or feedback regarding this project, please feel free to contact me at <a href="mailto:alex.tuysuzian91@gmail.com">alex.tuysuzian91@gmail.com</a>.
 
-[Deploy Link](https://alexandre-tzn.webflow.io/)
+
 
 Thank you for checking out my portfolio!
