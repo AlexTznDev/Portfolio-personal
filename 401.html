@@ -1,6 +1,6 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Thu Mar 23 2023 16:12:28 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="63bbec5f5800a2929c09a3c6" data-wf-site="6349723de46422b0048d92de">
+<!--  Last Published: Thu Mar 30 2023 17:01:53 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="64232629d0a50274c2c63a1b" data-wf-site="6349723de46422b0048d92de">
 <head>
   <meta charset="utf-8">
   <title>Protected page</title>
@@ -64,7 +64,13 @@
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
-</style>
+  </style>
+  <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+  <script>
+    Weglot.initialize({
+        api_key: 'wg_c0cc7eab7f6097b147664f14ab42c1b64'
+    });
+</script>
 </head>
 <body>
   <div class="utility-page_component">
@@ -118,26 +124,26 @@ setTimeout(() => {$(window).on("resize", function () {
 setTimeout(() => {$(".transition").css("display", "none");}, 50);});
 }, introDurationMS);
 //to email transition
-  $('.link-email').on('click', function() {
-  $('.top-transition, .bottom-transition').addClass('current');
-});
-$('a.link-email').on('click', function(e) {
-    e.preventDefault();
-    let transitionURL = $(this).attr("href");
-    setTimeout(function () {window.location = transitionURL;}, 2000);
-});
-  $('.link-email').on('click', function() {
-  $('.transition-language').addClass('current');
-});
+//  $('.link-email').on('click', function() {
+//  $('.top-transition, .bottom-transition').addClass('current');
+//});
+//$('a.link-email').on('click', function(e) {
+//    e.preventDefault();
+//    let transitionURL = $(this).attr("href");
+//    setTimeout(function () {window.location = transitionURL;}, 2000);
+//});
+//  $('.link-email').on('click', function() {
+//  $('.transition-language').addClass('current');
+// });
 //language transition phone
-$('a.link-email-phone').on('click', function(e) {
-    e.preventDefault();
-    let transitionURL = $(this).attr("href");
-    setTimeout(function () {window.location = transitionURL;}, 1800);
-});
-$('.link-email-phone').on('click', function() {
-  $('.top-transition, .bottom-transition').addClass('current');
-});
+//$('a.link-email-phone').on('click', function(e) {
+//    e.preventDefault();
+//    let transitionURL = $(this).attr("href");
+//    setTimeout(function () {window.location = transitionURL;}, 1800);
+//});
+//$('.link-email-phone').on('click', function() {
+//  $('.top-transition, .bottom-transition').addClass('current');
+//});
 //nav bar phone menu transition
 $('a.nav-link-phone, .link-email-phone').on('click', function(e) {
     e.preventDefault();
